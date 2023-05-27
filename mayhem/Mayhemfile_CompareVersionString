@@ -1,0 +1,6 @@
+project: librime
+target: CompareVersionString
+#t
+cmds:
+  - cmd: /fuzz_CompareVersionString
+    libfuzzer: true
